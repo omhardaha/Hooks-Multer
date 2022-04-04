@@ -8,3 +8,14 @@ input{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+button{
+    padding: 30px;
+    font-size: 40px;
+    margin-top: 40px;
+    color: rgb(27, 136, 245);
+    background-color: transparent;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0.3px dotted rgba(55, 81, 213, 0.6);
+    cursor: pointer;
+}
