@@ -1,6 +1,7 @@
 import { UseRef } from "./Hooks/UseRef";
 import { UseReducer } from "./Hooks/UseReducer";
 import { UseContext } from "./Hooks/UseContext";
+import { Multer } from "./Multer/Multer";
 import "./app.css";
 function App() {
 	return (
@@ -10,7 +11,8 @@ function App() {
 				{/* Uncomment Those Part U have to see  */}
 				{/* <UseRef /> */}
 				{/* <UseReducer /> */}
-				<UseContext />
+				{/* <UseContext /> */}
+				<Multer/>
 			</div>
 		</>
 	);
